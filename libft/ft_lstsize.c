@@ -1,29 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   utils.c                                            :+:      :+:    :+:   */
+/*   ft_lstsize.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
+/*   By: yasinsensoy <yasinsensoy@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/08 16:12:15 by burakkozluc       #+#    #+#             */
-/*   Updated: 2023/04/12 04:11:08 by burakkozluc      ###   ########.fr       */
+/*   Created: 2022/02/15 19:07:37 by ysensoy           #+#    #+#             */
+/*   Updated: 2022/08/29 21:33:54 by yasinsensoy      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../cub3d.h"
+#include "libft.h"
 
-int line_length(t_cub3d *cub3d)
+int	ft_lstsize(t_list *lst)
 {
-	int		fdmap;
-	int		i;
-	char	c;
-	
-	fdmap = open(cub3d->map_input[1], O_RDONLY);
-	while (read(fdmap, &c, 1) >= 1)
+	int	i;
+
+	i = 0;
+	while (lst != NULL)
 	{
-		if(ft_strchr(&c, '\n'))
-			i++;
+		lst = lst -> next;
+		i++;
 	}
-	close(fdmap);
 	return (i);
 }

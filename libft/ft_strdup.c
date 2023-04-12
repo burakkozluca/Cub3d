@@ -1,29 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   utils.c                                            :+:      :+:    :+:   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
+/*   By: yasinsensoy <yasinsensoy@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/08 16:12:15 by burakkozluc       #+#    #+#             */
-/*   Updated: 2023/04/12 04:11:08 by burakkozluc      ###   ########.fr       */
+/*   Created: 2022/02/09 11:37:55 by ysensoy           #+#    #+#             */
+/*   Updated: 2022/08/29 21:35:13 by yasinsensoy      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../cub3d.h"
+#include "libft.h"
 
-int line_length(t_cub3d *cub3d)
+char	*ft_strdup(const char *src)
 {
-	int		fdmap;
+	char	*p;
 	int		i;
-	char	c;
-	
-	fdmap = open(cub3d->map_input[1], O_RDONLY);
-	while (read(fdmap, &c, 1) >= 1)
+	int		e;
+
+	e = 0;
+	i = ft_strlen2(src);
+	p = (char *) malloc(i + 1);
+	if (p == NULL)
+		return (NULL);
+	while (src[e] != '\0')
 	{
-		if(ft_strchr(&c, '\n'))
-			i++;
+		p[e] = src[e];
+		e++;
 	}
-	close(fdmap);
-	return (i);
+	p[i] = '\0';
+	return (p);
 }

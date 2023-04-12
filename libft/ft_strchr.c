@@ -1,29 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   utils.c                                            :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
+/*   By: yasinsensoy <yasinsensoy@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/08 16:12:15 by burakkozluc       #+#    #+#             */
-/*   Updated: 2023/04/12 04:11:08 by burakkozluc      ###   ########.fr       */
+/*   Created: 2022/02/02 11:23:34 by ysensoy           #+#    #+#             */
+/*   Updated: 2022/08/29 21:35:03 by yasinsensoy      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../cub3d.h"
+#include "libft.h"
 
-int line_length(t_cub3d *cub3d)
+char	*ft_strchr(const char *s, int c)
 {
-	int		fdmap;
-	int		i;
-	char	c;
-	
-	fdmap = open(cub3d->map_input[1], O_RDONLY);
-	while (read(fdmap, &c, 1) >= 1)
+	size_t	i;
+	size_t	a;
+
+	a = ft_strlen2(s);
+	i = 0;
+	while (i <= a)
 	{
-		if(ft_strchr(&c, '\n'))
-			i++;
+		if (s[i] == (unsigned char)c)
+			return ((char *)s + i);
+		i++;
 	}
-	close(fdmap);
-	return (i);
+	return (NULL);
 }

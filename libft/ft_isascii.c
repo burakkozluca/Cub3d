@@ -1,29 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   utils.c                                            :+:      :+:    :+:   */
+/*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
+/*   By: mtemel <mtemel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/08 16:12:15 by burakkozluc       #+#    #+#             */
-/*   Updated: 2023/04/12 04:11:08 by burakkozluc      ###   ########.fr       */
+/*   Created: 2022/01/31 15:59:54 by ysensoy           #+#    #+#             */
+/*   Updated: 2023/03/25 14:56:14 by mtemel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../cub3d.h"
+#include "libft.h"
 
-int line_length(t_cub3d *cub3d)
+int	ft_isascii(int i)
 {
-	int		fdmap;
-	int		i;
-	char	c;
-	
-	fdmap = open(cub3d->map_input[1], O_RDONLY);
-	while (read(fdmap, &c, 1) >= 1)
-	{
-		if(ft_strchr(&c, '\n'))
-			i++;
-	}
-	close(fdmap);
-	return (i);
+	if (i >= 0 && i <= 127)
+		return (1);
+	return (0);
 }

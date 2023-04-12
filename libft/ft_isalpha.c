@@ -1,29 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   utils.c                                            :+:      :+:    :+:   */
+/*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
+/*   By: mtemel <mtemel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/08 16:12:15 by burakkozluc       #+#    #+#             */
-/*   Updated: 2023/04/12 04:11:08 by burakkozluc      ###   ########.fr       */
+/*   Created: 2021/10/13 10:31:34 by ysensoy           #+#    #+#             */
+/*   Updated: 2023/03/25 14:56:10 by mtemel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../cub3d.h"
+#include "libft.h"
 
-int line_length(t_cub3d *cub3d)
+int	ft_isalpha(int str)
 {
-	int		fdmap;
-	int		i;
-	char	c;
-	
-	fdmap = open(cub3d->map_input[1], O_RDONLY);
-	while (read(fdmap, &c, 1) >= 1)
+	if (!(str >= 'A' && str <= 'Z'))
 	{
-		if(ft_strchr(&c, '\n'))
-			i++;
+		if (!(str >= 'a' && str <= 'z'))
+			return (0);
 	}
-	close(fdmap);
-	return (i);
+	return (1);
 }

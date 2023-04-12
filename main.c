@@ -6,7 +6,7 @@
 /*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/08 15:04:53 by burakkozluc       #+#    #+#             */
-/*   Updated: 2023/04/08 15:04:55 by burakkozluc      ###   ########.fr       */
+/*   Updated: 2023/04/12 03:35:22 by burakkozluc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void    check_all(t_cub3d *img)
     img->so = 0;
     img->we = 0;
     img->ea = 0;
-
+    is_argtrue(img);
 }
 
 void    init(t_cub3d *img)
@@ -41,4 +41,5 @@ int main(int argc, char **argv)
     img->check = (t_check *)malloc(sizeof(t_check)); //oyun komutları için yer açtık.
     img->map_input = argv;
     init(img);
+    check_all(img);
 }

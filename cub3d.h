@@ -6,16 +6,18 @@
 /*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/08 15:04:59 by burakkozluc       #+#    #+#             */
-/*   Updated: 2023/04/08 16:42:25 by burakkozluc      ###   ########.fr       */
+/*   Updated: 2023/04/12 04:11:22 by burakkozluc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CUB3D_H
-#define CUB3D_H
+# define CUB3D_H
 
-#include <stdbool.h>
-#include <stdio.h>
-#include <unistd.h>
+# include <stdbool.h>
+# include <stdio.h>
+# include <unistd.h>
+# include <fcntl.h>
+# include "get_next_line/get_next_line.h"
 
 typedef struct s_bool
 {
@@ -41,10 +43,15 @@ typedef struct cub3d
 	int		ea;
 
     int     uz_y;
+    int     l_iter;
+    char	*line;
+    int     texture_bool;
 }   t_cub3d;
 
-void init(t_cub3d *img);
+void    init(t_cub3d *img);
+void    is_argtrue(t_cub3d *img);
 
 //UTILS
-int	ft_strlen(const char *str);
+int     line_length(t_cub3d *cub3d);
+
 #endif
