@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasinsensoy <yasinsensoy@student.42.fr>    +#+  +:+       +#+        */
+/*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/02 11:11:41 by ysensoy           #+#    #+#             */
-/*   Updated: 2022/08/29 21:36:32 by yasinsensoy      ###   ########.fr       */
+/*   Created: 2022/02/02 11:11:41 by bkozluca          #+#    #+#             */
+/*   Updated: 2023/04/12 04:16:04 by burakkozluc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

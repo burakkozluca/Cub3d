@@ -6,7 +6,7 @@
 /*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/08 15:04:59 by burakkozluc       #+#    #+#             */
-/*   Updated: 2023/04/12 04:11:22 by burakkozluc      ###   ########.fr       */
+/*   Updated: 2023/04/12 04:19:46 by burakkozluc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include <unistd.h>
 # include <fcntl.h>
 # include "get_next_line/get_next_line.h"
+# include "libft/libft.h"
 
 typedef struct s_bool
 {

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasinsensoy <yasinsensoy@student.42.fr>    +#+  +:+       +#+        */
+/*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/14 19:34:35 by ysensoy           #+#    #+#             */
-/*   Updated: 2022/08/29 21:34:41 by yasinsensoy      ###   ########.fr       */
+/*   Created: 2022/02/14 19:34:35 by bkozluca          #+#    #+#             */
+/*   Updated: 2023/04/12 04:18:42 by burakkozluc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

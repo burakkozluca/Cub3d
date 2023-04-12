@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasinsensoy <yasinsensoy@student.42.fr>    +#+  +:+       +#+        */
+/*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/13 10:41:16 by ysensoy           #+#    #+#             */
-/*   Updated: 2022/08/29 21:32:26 by yasinsensoy      ###   ########.fr       */
+/*   Created: 2021/10/13 10:41:16 by bkozluca          #+#    #+#             */
+/*   Updated: 2023/04/12 04:13:49 by burakkozluc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

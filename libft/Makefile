@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: mtemel <mtemel@student.42.fr>              +#+  +:+       +#+         #
+#    By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/02/04 18:34:35 by ysensoy           #+#    #+#              #
-#    Updated: 2023/02/25 12:08:41 by mtemel           ###   ########.fr        #
+#    Created: 2022/02/04 18:34:35 by bkozluca          #+#    #+#              #
+#    Updated: 2023/04/12 04:14:44 by burakkozluc      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 

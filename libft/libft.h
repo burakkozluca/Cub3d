@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtemel <mtemel@student.42.fr>              +#+  +:+       +#+        */
+/*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/05 11:42:50 by ysensoy           #+#    #+#             */
-/*   Updated: 2023/03/03 15:34:09 by mtemel           ###   ########.fr       */
+/*   Created: 2022/02/05 11:42:50 by bkozluca          #+#    #+#             */
+/*   Updated: 2023/04/12 04:15:55 by burakkozluc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,24 +65,4 @@ void	ft_putstr_fd(char *s, int fd);
 void	ft_putnbr_fd(int b, int fd);
 void	ft_putendl_fd(char *s, int fd);
 
-typedef struct s_list
-{
-	void			*content;
-	struct s_list	*next;
-}	t_list;
-
-t_list	*ft_lstnew(void *content);
-
-void	ft_lstadd_front(t_list **lst, t_list *new);
-
-int		ft_lstsize(t_list *lst);
-
-t_list	*ft_lstlast(t_list *lst);
-
-void	ft_lstadd_back(t_list **lst, t_list *new);
-void	ft_lstdelone(t_list *lst, void (*del)(void*));
-void	ft_lstclear(t_list **lst, void (*del)(void*));
-void	ft_lstiter(t_list *lst, void (*f)(void *));
-
-t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 #endif

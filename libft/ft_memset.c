@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasinsensoy <yasinsensoy@student.42.fr>    +#+  +:+       +#+        */
+/*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/31 16:57:41 by ysensoy           #+#    #+#             */
-/*   Updated: 2022/08/29 21:34:24 by yasinsensoy      ###   ########.fr       */
+/*   Created: 2022/01/31 16:57:41 by bkozluca          #+#    #+#             */
+/*   Updated: 2023/04/12 04:18:53 by burakkozluc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

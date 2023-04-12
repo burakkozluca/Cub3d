@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasinsensoy <yasinsensoy@student.42.fr>    +#+  +:+       +#+        */
+/*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/31 15:44:38 by ysensoy           #+#    #+#             */
-/*   Updated: 2022/08/29 21:32:00 by yasinsensoy      ###   ########.fr       */
+/*   Created: 2022/01/31 15:44:38 by bkozluca          #+#    #+#             */
+/*   Updated: 2023/04/12 04:13:27 by burakkozluc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

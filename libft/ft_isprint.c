@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasinsensoy <yasinsensoy@student.42.fr>    +#+  +:+       +#+        */
+/*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/31 16:47:35 by ysensoy           #+#    #+#             */
-/*   Updated: 2022/08/29 21:32:33 by yasinsensoy      ###   ########.fr       */
+/*   Created: 2022/01/31 16:47:35 by bkozluca          #+#    #+#             */
+/*   Updated: 2023/04/12 04:13:58 by burakkozluc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

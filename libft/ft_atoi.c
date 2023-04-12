@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yasinsensoy <yasinsensoy@student.42.fr>    +#+  +:+       +#+        */
+/*   By: burakkozluca <burakkozluca@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/08 11:26:34 by ysensoy           #+#    #+#             */
-/*   Updated: 2022/08/29 21:31:47 by yasinsensoy      ###   ########.fr       */
+/*   Created: 2022/02/08 11:26:34 by bkozluca          #+#    #+#             */
+/*   Updated: 2023/04/12 04:13:03 by burakkozluc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
